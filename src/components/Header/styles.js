@@ -31,7 +31,7 @@ export default makeStyles((theme) => ({
     display: 'flex', justifyContent: 'space-between',
   },
   travel_title:{
-    marginBottom: '15px'
+    marginBottom: '20px'
   },
   svgImg:{
     fontSize:'5px !important'
