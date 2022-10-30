@@ -5,14 +5,14 @@ export default makeStyles((theme) => ({
     display: 'none',
     [theme.breakpoints.up('sm')]: {
       display: 'block',
-      color: '#a4a4ca'
+      color: '#8989d0'
     },
   },
   search: {
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
-    backgroundColor: alpha(theme.palette.common.white, 0.15),
-    '&:hover': { backgroundColor: alpha(theme.palette.common.white, 0.25) },
+    backgroundColor: alpha(theme.palette.common.white, 0.20),
+    '&:hover': { backgroundColor: alpha(theme.palette.common.white, 0.30) },
     marginRight: theme.spacing(2),
     marginLeft: 0,
     width: '100%',
@@ -31,7 +31,7 @@ export default makeStyles((theme) => ({
     display: 'flex', justifyContent: 'space-between',
   },
   travel_title:{
-    marginBottom: '10px'
+    marginBottom: '15px'
   },
   svgImg:{
     fontSize:'5px !important'

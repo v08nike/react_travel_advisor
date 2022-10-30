@@ -19,11 +19,11 @@ const Header = ({ onPlaceChanged, onLoad }) => {
           </svg>
           </span>
         
-           <span className={classes.travel_title}>Travel Advisor</span>
+           <span className={classes.travel_title}>Top Travel Advisor</span>
         </Typography>
         <Box display="flex">
           <Typography variant="h6" className={classes.title}>
-            Explore new places
+            Explore top places
           </Typography>
           <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
             <div className={classes.search}>
