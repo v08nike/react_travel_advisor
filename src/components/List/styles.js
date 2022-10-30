@@ -8,13 +8,13 @@ export default makeStyles((theme) => ({
     marginTop: theme.spacing(2),
   },
   loading: {
-    height: '600px', display: 'flex', justifyContent: 'center', alignItems: 'center',
+    height: '650px', display: 'flex', justifyContent: 'center', alignItems: 'center',
   },
   container: {
-    padding: '25px',
+    padding: '27px',
   },
   marginBottom: {
-    marginBottom: '30px',
+    marginBottom: '32px',
   },
   list: {
     height: '75vh', overflow: 'auto',
