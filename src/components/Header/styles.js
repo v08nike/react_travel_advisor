@@ -5,6 +5,7 @@ export default makeStyles((theme) => ({
     display: 'none',
     [theme.breakpoints.up('sm')]: {
       display: 'block',
+      color: '#a4a4ca'
     },
   },
   search: {
@@ -29,5 +30,11 @@ export default makeStyles((theme) => ({
   toolbar: {
     display: 'flex', justifyContent: 'space-between',
   },
+  travel_title:{
+    marginBottom: '10px'
+  },
+  svgImg:{
+    fontSize:'5px !important'
+  }
 }));
 
