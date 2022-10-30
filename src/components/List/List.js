@@ -22,19 +22,19 @@ const List = ({ places, type, setType, rating, setRating, childClicked, isLoadin
       ) : (
         <>
           <FormControl className={classes.formControl}>
-            <InputLabel id="type">Type</InputLabel>
+            <InputLabel id="type">Types</InputLabel>
             <Select id="type" value={type} onChange={(e) => setType(e.target.value)}>
-              <MenuItem value="restaurants">Restaurants</MenuItem>
-              <MenuItem value="hotels">Hotels</MenuItem>
-              <MenuItem value="attractions">Attractions</MenuItem>
+              <MenuItem value="restaurants">Amazing Restaurants</MenuItem>
+              <MenuItem value="hotels">Superb Hotels</MenuItem>
+              <MenuItem value="attractions">Fascinating Attractions</MenuItem>
             </Select>
           </FormControl>
           <FormControl className={classes.formControl}>
-            <InputLabel id="rating">Rating</InputLabel>
+            <InputLabel id="rating">Ratings</InputLabel>
             <Select id="rating" value={rating} onChange={(e) => setRating(e.target.value)}>
               <MenuItem value="">All</MenuItem>
-              <MenuItem value="3">Above 3.0</MenuItem>
-              <MenuItem value="4">Above 4.0</MenuItem>
+              <MenuItem value="3">Above 3.3</MenuItem>
+              <MenuItem value="4">Above 4.2</MenuItem>
               <MenuItem value="4.5">Above 4.6</MenuItem>
             </Select>
           </FormControl>
