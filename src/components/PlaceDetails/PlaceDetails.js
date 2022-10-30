@@ -60,7 +60,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
           Trip Advisor
         </Button>
         <Button size="small" color="primary" onClick={() => window.open(place.website, '_blank')}>
-          Website
+          Amazing Website
         </Button>
       </CardActions>
     </Card>
